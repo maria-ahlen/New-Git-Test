@@ -1,14 +1,25 @@
 body {
-    background: rgb(20, 106, 139);
+    margin: 0;
+    padding: 0;
 }
+
 
 .wrapper {
     width: 100vw;
     height: 100vh;
-    
+    background: rgb(20, 106, 139);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
-.click-me {
-    background-color: rgb(87, 170, 202);
+button {
+    background: rgb(87, 170, 202);
+    padding: 1rem;
+    font-weight: bolder;
+}
+
+.changeBackground {
+
 }
