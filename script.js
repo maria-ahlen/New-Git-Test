@@ -1,3 +1,9 @@
+let wrapper = document.querySelector('.wrapper');
+
 document.querySelector('button').addEventListener('click', () => {
-    console.log('hej');
+    if(wrapper.classList == 'changeBackground') {
+        wrapper.classList.remove('changeBackground');
+    } else {
+        wrapper.classList.add('changeBackground');
+    }
 });
