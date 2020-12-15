@@ -1,0 +1,14 @@
+body {
+    background: rgb(20, 106, 139);
+}
+
+.wrapper {
+    width: 100vw;
+    height: 100vh;
+    
+}
+
+
+.click-me {
+    background-color: rgb(87, 170, 202);
+}
